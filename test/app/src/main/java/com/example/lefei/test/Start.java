@@ -34,7 +34,7 @@ public class Start extends Activity {
 
         layout = (LinearLayout)findViewById (R.id.start_layout);
 
-        TransitionDrawable transition = (TransitionDrawable) layout.getBackground();
+        //TransitionDrawable transition = (TransitionDrawable) layout.getBackground();
         //transition.startTransition(1200);
 
             signin = (ImageButton) findViewById(R.id.sign_in);
